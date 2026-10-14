@@ -1,0 +1,20 @@
+{
+    "name": "php-baremetal/ext-hello",
+    "description": "Demo extension: bm_hello() only, no dependencies.",
+    "type": "bm-ext",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gianfrancesco Aurecchia",
+            "email": "gianfri@aurecchia.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.3"
+    },
+    "extra": {
+        "baremetal": {
+            "module": "hello"
+        }
+    }
+}
