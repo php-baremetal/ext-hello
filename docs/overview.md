@@ -69,7 +69,7 @@ The resulting `composer.json`, for a Waveshare ESP32-S3-Touch-LCD-1.85B:
   },
   "extra": {
     "baremetal": {
-      "sdk": "esp32@^1.0",
+      "sdk": "esp32@^2.0",
       "board": "waveshare-esp32-s3-touch-lcd-1.85b",
       "runtime": "init-loop",
       "storage": "embedded"
