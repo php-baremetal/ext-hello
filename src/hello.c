@@ -14,7 +14,7 @@
 /* A demo extension: bm_hello() returns a fixed greeting. */
 #include "php.h"
 
-ZEND_BEGIN_ARG_INFO_EX(arginfo_bm_hello, 0, 0, 0)
+ZEND_BEGIN_ARG_WITH_RETURN_TYPE_INFO_EX(arginfo_bm_hello, 0, 0, IS_STRING, 0)
 ZEND_END_ARG_INFO()
 
 PHP_FUNCTION(bm_hello)

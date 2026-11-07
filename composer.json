@@ -14,7 +14,8 @@
     },
     "extra": {
         "baremetal": {
-            "module": "hello"
+            "module": "hello",
+            "ide-stubs": ["ide/ext-hello.stub"]
         }
     }
 }

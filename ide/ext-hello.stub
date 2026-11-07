@@ -1,0 +1,14 @@
+<?php
+// php-baremetal/ext-hello 1.1.0 — IDE helper, not loaded at runtime.
+
+namespace {
+    /**
+     * Returns the fixed greeting "hello from ext-hello package"; it has no state and no side effects.
+     *
+     * Use it to check that a project builds its packages in.
+     *
+     * @return string The greeting "hello from ext-hello package".
+     * @throws \ArgumentCountError When called with any argument.
+     */
+    function bm_hello(): string {}
+}
